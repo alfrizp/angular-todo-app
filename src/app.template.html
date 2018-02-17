@@ -1,0 +1,7 @@
+<h1>
+    Angular Todo App
+
+    <TodoList [todos]="todos" [showDone]="showDone" ></TodoList>
+    <TodoInput (newTodoEvent)="onNewTodo($event)" ></TodoInput>
+    <FilterToggle (onFilterToggleChange)="onFilterToggle($event)"></FilterToggle>
+</h1>
