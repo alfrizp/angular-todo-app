@@ -1,0 +1,38 @@
+{
+  "name": "angular-todo-app",
+  "version": "1.0.0",
+  "description": "Simple TodoApp with Angular 5.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/@angular/cli/bin/ng serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfrizp/angular-todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfrizp/angular-todo-app/issues"
+  },
+  "homepage": "https://github.com/alfrizp/angular-todo-app#readme",
+  "dependencies": {
+    "@angular/common": "^5.2.3",
+    "@angular/compiler": "^5.2.3",
+    "@angular/core": "^5.2.3",
+    "@angular/forms": "^5.2.3",
+    "@angular/platform-browser": "^5.2.3",
+    "@angular/platform-browser-dynamic": "^5.2.3",
+    "@types/lodash": "^4.14.99",
+    "core-js": "^2.5.3",
+    "lodash": "^4.17.4",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.7.1",
+    "zone.js": "^0.8.20"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.7",
+    "@angular/compiler-cli": "^5.2.3"
+  }
+}
